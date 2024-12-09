@@ -78,8 +78,9 @@ public class TicketMachine {
 	 */
 	public int refund() {
 		System.out.println("Je vous rends : " + balance + " centimes");
+		int refund = balance;
 		balance = 0;
-		return balance;
+		return refund;
 	}
 
 	/**

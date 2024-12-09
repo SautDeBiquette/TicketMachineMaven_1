@@ -79,7 +79,7 @@ class TicketMachineTest {
 	}
 
 	@Test
-		// S7 : refund()rendcorrectement la monnaie
+		// S7 : refund() rend correctement la monnaie
 	void refundSendBackMoney() {
 		// GIVEN : une machine vierge (initialisée dans @BeforeEach)
 		// WHEN On insère de l'argent
